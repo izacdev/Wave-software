@@ -4,8 +4,11 @@
   "description": "wave software",
   "main": "server.js",
   "scripts": {
-    "start": "node",
-    "dev": "node server"
+    "build": "cd my-app && npm run build",
+    "install-my-app": "cd my-app && npm install",
+    "heroku-postbuild": "npm run installl my-app && npm run build ",
+    "start": "node server.js",
+    "my-app": "cd my-app && npm start"
   },
   "repository": {
     "type": "git",
