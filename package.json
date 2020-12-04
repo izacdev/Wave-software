@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/izacdev/wave-software/issues"
   },
-  "homepage": "https://github.com/izacdev/wave-software#readme",
+  "homepage": ".",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
